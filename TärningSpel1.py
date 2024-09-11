@@ -73,6 +73,8 @@ if gissade == 1:
         print("Dator säger bluff")
         print("Datorns värde var: ")
         print(datorVärde)
+        print("Det totala värdet var: ")
+        print(totalaVärde)
         if totalaVärde > spelarGissning:
             print("Spelaren Vann")
             quit()
