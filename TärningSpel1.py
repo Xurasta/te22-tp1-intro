@@ -46,9 +46,17 @@ if gissade == 1:
         print(datorGissning)
 else:
     if totalaVärde > datorGissning:
+        print("Datorns värde var: ")
+        print(datorVärde)
+        print("Det totala värdet var: ")
+        print(totalaVärde)
         print("Datorn Vann")
         quit()
     else:
+        print("Datorns värde var: ")
+        print(datorVärde)
+        print("Det totala värdet var: ")
+        print(totalaVärde)
         print("Spelaren Vann")
         quit()
 
@@ -87,8 +95,16 @@ if gissade == 1:
         print(datorGissning)
 else:
     if totalaVärde > datorGissning:
+        print("Datorns värde var: ")
+        print(datorVärde)
+        print("Det totala värdet var: ")
+        print(totalaVärde)
         print("Datorn Vann")
         quit()
     else:
+        print("Datorns värde var: ")
+        print(datorVärde)
+        print("Det totala värdet var: ")
+        print(totalaVärde)
         print("Spelaren Vann")
         quit()
