@@ -1,3 +1,4 @@
+import colour
 import random
 
 datorVärde = random.randint(1,6)
@@ -8,6 +9,7 @@ gissade = 0
 
 datorVärdeMedel = int(datorVärde/2)
 datorGissning = datorVärdeMedel+random.randint(1,2)
+
 print("Din tärning visar: ")
 print (spelarVärde)
 print("Datorn gissar på: ")
@@ -61,6 +63,7 @@ else:
         quit()
 
 gissade = 0
+# Here starts the ctrl + c => ctrl + v
 
 spelarTur = str(input("Vill du gissa eller bluffa?"))
 while True:
